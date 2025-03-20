@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Vídeos</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estilos.css">
+    
+    <!-- Scripts do Firebase -->
     <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-auth.js"></script>
+
+    <!-- Script do projeto -->
     <script defer src="scripts.js"></script>
 </head>
 <body>
     <div id="home" class="container">
-        <img id="profileIcon" src="profile1.png" alt="Perfil" class="profile">
+        <img id="profileIcon" src="perfil1.png" alt="Perfil" class="profile">
         <h1 id="greeting">Olá, visitante!</h1>
-        <button id="loginButton" class="btn">Login com Google</button>
+        <button id="loginButton" class="btn">Entrar com Google</button>
         <button id="videosButton" class="btn">Vídeos</button>
     </div>
     
     <div id="videosPage" class="container hidden">
         <h1>Vídeos</h1>
-        <img src="image.png" alt="Vídeo" class="video-img">
+        <img src="imagem.png" alt="Vídeo" class="video-img">
         <button id="backButton" class="btn">Voltar</button>
     </div>
 </body>
